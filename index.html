@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPSC Keeda</title>
+    <link rel="icon" href="Images/UPCS_Keeda_icon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- Nav -->
+      <nav>
+        <div class="logo">
+          <a href="/index.html" target="_self"
+            ><h1>
+              <span class="plus-jakarta-sans logo-1">UPSC</span
+              ><span class="roboto logo-2">Keeda</span>
+            </h1>
+          </a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+
+        <label for="menu-toggle" class="menu-button">
+          <span class="menu-icon"></span>
+        </label>
+
+        <ul class="list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#about-creator">About</a></li>
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <!-- <li><a href="#resources">Resources</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-left">
+          <p class="exams">UPSC · SSC · RAILWAYS · CGL</p>
+          <h2><span>Crack the Code.</span><span>Know the Country.</span></h2>
+          <p class="hero-second-para">
+            Your one-stop learning platform for UPSC, SSC, CGL & Railways.
+            Well-researched videos and documentary breakdowns — simplified for
+            every aspirant.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="https://www.youtube.com/@upsckeeda-m6i"
+              class="watch-on-youtube-btn btn"
+              >Watch on YouTube</a
+            >
+            <a href="#topics" class="browse-topics-btn btn">Browse Topics</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="video-responsive-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/lyokJJKtJCk?si=o78dD58MuQithSVm"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Bar -->
+      <section class="stats-bar">
+        <div class="subscribers stats-card">
+          <div class="subscribers-count">345</div>
+          <p>Subscribers</p>
+        </div>
+
+        <div class="videos-uploaded stats-card">
+          <div class="videos-count">19</div>
+          <p>Videos Uploaded</p>
+        </div>
+
+        <div class="subject-areas stats-card">
+          <div class="subject-count">4</div>
+          <p>Subject Areas</p>
+        </div>
+
+        <div class="free-access stats-card">
+          <div class="free-to-access">Free</div>
+          <p>Always Free To Access</p>
+        </div>
+      </section>
+
+      <!-- Topic Categories -->
+      <section class="topic-categories" id="topics">
+        <h2>Browse By Topic</h2>
+        <p>Click a topic to filter all videos instantly</p>
+        <div class="topic-cards">
+          <div class="card-placeholder">
+            <h3>History</h3>
+            <p>Ancienct to modern</p>
+          </div>
+          <div class="card-placeholder">
+            <h3>Current Affairs</h3>
+            <p>Latest updates</p>
+          </div>
+          <div class="card-placeholder">
+            <h3>Political Science</h3>
+            <p>Polity & governance</p>
+          </div>
+          <div class="card-placeholder">
+            <h3>Geography</h3>
+            <p>Maps & concepts</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Search + Auto-Fetched Videos -->
+      <section class="video-search" id="videos">
+        <h2>Videos</h2>
+        <input
+          type="text"
+          placeholder='Search by title or keyword... e.g. "RSS" or "Odisha"'
+          class="search-input"
+        />
+        <div class="filter">
+          <p>Filter:</p>
+          <div class="filter-topics">
+            <div class="topic-filter-card">All</div>
+            <div class="topic-filter-card">Current Affairs</div>
+            <div class="topic-filter-card">History</div>
+            <div class="topic-filter-card">Polity</div>
+            <div class="topic-filter-card">Geography</div>
+          </div>
+        </div>
+
+        <div class="videos">
+          <div class="video-cards">
+            <a href="https://www.youtube.com/watch?v=lyokJJKtJCk" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="history">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/lyokJJKtJCk/mqdefault.jpg" alt="Odisha in Freedom Struggle" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">History</span>
+                  <h3 class="video-title">Odisha in Freedom Struggle</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=AZcXTG1lguk" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="history">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/AZcXTG1lguk/mqdefault.jpg" alt="Who Tried to Destroy Jagannath?" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">History</span>
+                  <h3 class="video-title">Who Tried to Destroy Jagannath?</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=D431qUnak08" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="current affairs">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/D431qUnak08/mqdefault.jpg" alt="Red-Crowned Roofed Turtle" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">Current Affairs</span>
+                  <h3 class="video-title">Red-Crowned Roofed Turtle</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=BlrNmq0wgAQ" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="polity">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/BlrNmq0wgAQ/mqdefault.jpg" alt="Chhabila Sai" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">Polity</span>
+                  <h3 class="video-title">Chhabila Sai</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=hq6TerEnD4s" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="geography">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/hq6TerEnD4s/mqdefault.jpg" alt="Lucknow to Space: Shubhanshu Shukla's Epic Cosmic Journey!" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">Geography</span>
+                  <h3 class="video-title">Lucknow to Space: Shubhanshu Shukla's Epic Cosmic Journey!</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=J-Dk3GTPpjU" target="_blank" rel="noopener noreferrer" class="video-card-link" data-topic="polity">
+              <div class="video-card">
+                <div class="video-thumbnail-wrapper">
+                  <img src="https://img.youtube.com/vi/J-Dk3GTPpjU/mqdefault.jpg" alt="Discover Sambalpur: Culture, History, and Economy of Western Odisha" class="video-static-thumbnail" loading="lazy" />
+                </div>
+                <div class="video-card-content">
+                  <span class="video-tag">History</span>
+                  <h3 class="video-title">Discover Sambalpur: Culture, History, and Economy of Western Odisha</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="error-log hidden">No videos match your search</div>
+
+          <button class="load-more hidden">Load more videos</button>
+        </div>
+      </section>
+
+      <!-- About Creator -->
+      <section class="about-creator" id="about-creator">
+        <div class="creator-left">
+          <figure class="profile-pic-figure">
+            <img
+              src="Images/Suraj Kumar Gartia's Profile Picture.png"
+              alt="Suraj Gadtia's Profile Picture"
+              width="200px"
+            />
+            <figcaption>Suraj Kumar Gartia</figcaption>
+            <p>GMU student · Content Creator</p>
+          </figure>
+        </div>
+
+        <div class="creator-right">
+          <h2>About UPSC Keeda</h2>
+          <p>
+            UPSC Keeda is a one-stop learning platform for UPSC, SSC, CGL,
+            Railways & more. Suraj simplifies current affairs, history, polity,
+            & geography through well-researched videos — making quality
+            education accessible to every aspirant.
+          </p>
+          <div class="creator-social-links">
+            <a
+              href="https://www.youtube.com/@upsckeeda-m6i/videos"
+              class="creator-youtube"
+              target="_blank"
+              >YouTube</a
+            >
+            <a
+              href="https://www.instagram.com/upsc_.keeda/"
+              class="creator-instagram"
+              target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="mailto:surajgadtia95@gmail.com"
+              class="creator-email"
+              target="_blank"
+              >Email</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- FUTURE RESOURCES GRID: 
+          Uncomment this block below once resource files (PDFs/Notes) are ready to be served.
+      <section class="resources" id="resources">
+        <h2>Free Study Resources</h2>
+        <p>Download notes, PDFs, and syllabus guides</p>
+
+        <div class="resources-pdfs">
+          <div>
+            <p>All</p>
+          </div>
+          <div>
+            <p>Current Affairs</p>
+          </div>
+          <div>
+            <p>History</p>
+          </div>
+          <div>
+            <p>Polity</p>
+          </div>
+          <div>
+            <p>Geography</p>
+          </div>
+        </div>
+      
+        
+      <div class="resources-grid">
+          <div class="resource-card">
+            <span class="resource-tag">Syllabus</span>
+            <h3 class="resource-title">UPSC CSE Prelims & Mains Syllabus</h3>
+            <p class="resource-desc">
+              Complete official comprehensive syllabus checklist broken down
+              topic by topic.
+            </p>
+            <a href="#" class="download-btn">Download PDF</a>
+          </div>
+
+          <div class="resource-card">
+            <span class="resource-tag">History</span>
+            <h3 class="resource-title">Odisha Freedom Movement Notes</h3>
+            <p class="resource-desc">
+              Handwritten revision notes detailing the historical tribal
+              uprisings and freedom fighters of Odisha.
+            </p>
+            <a href="#" class="download-btn">Download PDF</a>
+          </div>
+
+          <div class="resource-card">
+            <span class="resource-tag">Polity</span>
+            <h3 class="resource-title">Important Constitutional Articles</h3>
+            <p class="resource-desc">
+              A condensed study sheet containing frequently targeted articles,
+              schedules, and amendments for rapid review.
+            </p>
+            <a href="#" class="download-btn">Download PDF</a>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <footer>
+      <section class="footer-container">
+        <section class="upsc-keeda">
+          <h2>UPSC KEEDA</h2>
+          <p>Crack the Code. Know the Country.</p>
+          <p>Quality exam prep, always free.</p>
+        </section>
+
+        <section class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#about-creator">About</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </section>
+
+        <section class="topics">
+          <h3>Topics</h3>
+          <ul
+            style="
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+              gap: 0.8rem;
+            "
+          >
+            <li><a href="#topics">History</a></li>
+            <li><a href="#topics">Current Affairs</a></li>
+            <li><a href="#topics">Political Science</a></li>
+            <li><a href="#topics">Geography</a></li>
+          </ul>
+        </section>
+
+        <section class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:surajgadtia95@gmail.com"
+                >surajgadtia95@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@upsckeeda-m6i/videos"
+                >YouTube</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/upsc_.keeda/">Instagram</a>
+            </li>
+          </ul>
+        </section>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> UPSC Keeda &middot; All
+            rights reserved.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
